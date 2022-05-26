@@ -6,15 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tickets</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/tickets.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
-
-    <script src="./dist/main.bundle.js" defer></script>
+    <script src="./dist/tickets.bundle.js" defer></script>
   </head>
   <body class="tickets-bg">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -80,36 +76,15 @@
         </tbody>
       </table>
       <div class="col text-center">
-        <button
-          type="button"
-          class="btn btn-primary purchase"
-          data-toggle="modal"
-          data-target="#purchaseModal"
-        >
-          Purchase Tickets!
-        </button>
+        <button type="button" class="btn btn-primary purchase" data-toggle="modal" data-target="#purchaseModal">Purchase Tickets!</button>
       </div>
     </div>
-    <div
-      class="modal fade"
-      id="purchaseModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="purchaseModalLabel"
-      aria-hidden="true"
-    >
+    <div class="modal fade" id="purchaseModal" tabindex="-1" role="dialog" aria-labelledby="purchaseModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="purchaseModalLabel">
-              Purchase Tickets
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
+            <h5 class="modal-title" id="purchaseModalLabel">Purchase Tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -126,29 +101,13 @@
             </select>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="purchaseEmail"
-                aria-describedby="emailHelp"
-                placeholder="Enter email"
-              />
-              <small id="emailHelp" class="form-text text-muted"
-                >We'll never share your email with anyone else.</small
-              >
+              <input type="email" class="form-control" id="purchaseEmail" aria-describedby="emailHelp" placeholder="Enter email" />
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
           </div>
           <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Nevermind!
-            </button>
-            <button type="button" class="btn btn-primary" id="purchaseBtn">
-              Purchase
-            </button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Nevermind!</button>
+            <button type="button" class="btn btn-primary" id="purchaseBtn">Purchase</button>
           </div>
         </div>
       </div>
@@ -160,25 +119,19 @@
             <div class="flex-center">
               <!-- Facebook -->
               <a>
-                <i class="fa fa-facebook fa-lg text-white mr-md-5 mr-3 fa-2x">
-                </i>
+                <i class="fa fa-facebook fa-lg text-white mr-md-5 mr-3 fa-2x"> </i>
               </a>
               <!-- Twitter -->
               <a>
-                <i class="fa fa-twitter fa-lg text-white mr-md-5 mr-3 fa-2x">
-                </i>
+                <i class="fa fa-twitter fa-lg text-white mr-md-5 mr-3 fa-2x"> </i>
               </a>
               <!-- Google +-->
               <a>
-                <i
-                  class="fa fa-google-plus fa-lg text-white mr-md-5 mr-3 fa-2x"
-                >
-                </i>
+                <i class="fa fa-google-plus fa-lg text-white mr-md-5 mr-3 fa-2x"> </i>
               </a>
               <!--Instagram-->
               <a>
-                <i class="fa fa-instagram fa-lg text-white mr-md-5 mr-3 fa-2x">
-                </i>
+                <i class="fa fa-instagram fa-lg text-white mr-md-5 mr-3 fa-2x"> </i>
               </a>
               <!--Pinterest-->
               <a>
@@ -189,10 +142,7 @@
         </div>
       </div>
 
-      <div class="footer-copyright text-center py-3 text-white">
-        © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights
-        Reserved.
-      </div>
+      <div class="footer-copyright text-center py-3 text-white">© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.</div>
     </footer>
   </body>
 </html>

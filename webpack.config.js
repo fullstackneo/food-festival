@@ -13,6 +13,12 @@ module.exports = {
       analyzerMode: 'static',
     }),
   ],
+  devServer: {
+    static: __dirname,
+    // inline: true,
+    host: '0.0.0.0',
+    port: 8080,
+  },
   entry: {
     app: './assets/js/script.js',
     events: './assets/js/events.js',

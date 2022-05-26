@@ -172,4 +172,15 @@
       <div class="footer-copyright text-center py-3 text-white">© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.</div>
     </footer>
   </body>
+  <script>
+    (function () {
+      if ('serviceWorker' in navigator) {
+        // Note that we don't need to add a <script src="./service-worker.js"> tag, because navigator.serviceWorker.register("./service-worker.js") does that for us.
+        navigator.serviceWorker
+          .register('./service-worker.js')
+          .then(() => console.log('Service Worker registered successfully.'))
+          .catch(error => console.log('Service Worker registration failed:', error));
+      }
+    })();
+  </script>
 </html>

@@ -9,7 +9,7 @@ module.exports = {
       $: 'jquery',
       jQuery: 'jquery',
     }),
-    
+
     new BundleAnalyzerPlugin({
       // the report outputs to an HTML file in the dist folder
       analyzerMode: 'static',
@@ -49,6 +49,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
+    publicPath: '',
     path: path.join(__dirname, 'dist'),
   },
   module: {
